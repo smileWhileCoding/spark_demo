@@ -10,6 +10,6 @@ public class App
         for(String arg : args){
             System.out.println("arg -->" + arg);
         }
-        get("/hello", (req, res) -> "いらっしゃいませxxxx");
+        get("/hello", (req, res) -> "いらっしゃいませxxxxfdsafdsa");
     }
 } 
